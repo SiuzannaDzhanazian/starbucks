@@ -1,65 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            font-family: sans-serif;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        .picture{
-            height: 50px;
-            width: 50px;
-        }
-        header{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-       a{
+      body {
+        font-family: sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .picture {
+        height: 50px;
+        width: 50px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      a {
         margin: 10px;
-       }
-       h1{
+      }
+      .main {
+        background-image: url(https://images.fastcompany.com/image/upload/f_webp,c_fit,w_3840,q_auto/wp-cms/uploads/2022/03/p-1-starbucks.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 50% 600px;
+        height: 600px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-       }
-       div{
-        background-color: orange;
-        height: 600px;
-        width: 50%;
-       }
-       section{
-         height: 600px;
-        width: 100%;
-       }
+      }
+      li {
+        display: inline-block;
+        margin: 0 50px;
+        text-align: center;
+      }
+      img{
+        height: 150px;
+        width: 150px;
+      }
+      button{
+        background-color: darkgreen;
+        color: white;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="#">Our Menu</a>
-            <a href="#">Our Reviews</a>
-            <a href="#">Our History</a>
-        </nav>
-            <img src="https://img.icons8.com/color/512/starbucks.png" alt="Starbucks" class="picture">
-            <nav>
-            <a href="#">Our Menu</a>
-            <a href="#">Our Reviews</a>
-            <a href="#">Our History</a>
-        </nav>
+      <nav>
+        <a href="#">Our Menu</a>
+        <a href="#">Our Reviews</a>
+        <a href="#">Our History</a>
+      </nav>
+      <img
+        src="https://img.icons8.com/color/512/starbucks.png"
+        alt="Starbucks"
+        class="picture"
+      />
+      <nav>
+        <a href="#">Our Menu</a>
+        <a href="#">Our Reviews</a>
+        <a href="#">Our History</a>
+      </nav>
     </header>
     <main>
-        <section>
-            
-            <h1>STARBUCKS</h1>
-            <div></div>
-        </section>
+      <section class="main">
+        <h1>STARBUCKS</h1>
+      </section>
+      <section>
+        <h2>Our Coffee's</h2>
+        <ol>
+          <li>
+            <img
+              src="https://saigonflowers.com/wp-content/uploads/2023/08/hot-flat-white-starbucks.jpg"
+              alt="coffee"
+            />
+            <h3>Pina Coffee</h3>
+            <p>Best coffee in your life& Just try it.☕️</p>
+            <button>Buy</button>
+          </li>
+          <li>
+            <img
+              src="https://saigonflowers.com/wp-content/uploads/2023/08/hot-flat-white-starbucks.jpg"
+              alt="coffee"
+            />
+            <h3>Pina Coffee</h3>
+            <p>Best coffee in your life& Just try it.☕️</p>
+            <button>Buy</button>
+          </li>
+          <li>
+            <img
+              src="https://saigonflowers.com/wp-content/uploads/2023/08/hot-flat-white-starbucks.jpg"
+              alt="coffee"
+            />
+            <h3>Pina Coffee</h3>
+            <p>Best coffee in your life& Just try it.☕️</p>
+            <button>Buy</button>
+          </li>
+          <li>
+            <img
+              src="https://saigonflowers.com/wp-content/uploads/2023/08/hot-flat-white-starbucks.jpg"
+              alt="coffee"
+            />
+            <h3>Pina Coffee</h3>
+            <p>Best coffee in your life& Just try it.☕️</p>
+            <button>Buy</button>
+          </li>
+        </ol>
+      </section>
     </main>
-</body>
+  </body>
 </html>
